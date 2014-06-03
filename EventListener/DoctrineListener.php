@@ -1,6 +1,6 @@
 <?php
 
-namespace SmartSystems\ObjectHistoryBundle\EventListener;
+namespace SmartInformationSystems\ObjectHistoryBundle\EventListener;
 
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\Security\Core\SecurityContext;
@@ -10,8 +10,8 @@ use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Annotations\AnnotationReader;
 use Doctrine\ORM\EntityManager;
 
-use SmartSystems\ObjectHistoryBundle\Entity\ObjectHistory;
-use SmartSystems\ObjectHistoryBundle\Entity\ObjectHistoryDetail;
+use SmartInformationSystems\ObjectHistoryBundle\Entity\ObjectHistory;
+use SmartInformationSystems\ObjectHistoryBundle\Entity\ObjectHistoryDetail;
 
 class DoctrineListener
 {
@@ -20,21 +20,21 @@ class DoctrineListener
      *
      * @const string
      */
-    const ANNOTATION_LOGGING_ENTITY = 'SmartSystems\ObjectHistoryBundle\Annotations\LoggingEntity';
+    const ANNOTATION_LOGGING_ENTITY = 'SmartInformationSystems\ObjectHistoryBundle\Annotations\LoggingEntity';
 
     /**
      * Логгировать поле.
      *
      * @const string
      */
-    const ANNOTATION_LOGGING_FIELD = 'SmartSystems\ObjectHistoryBundle\Annotations\LoggingField';
+    const ANNOTATION_LOGGING_FIELD = 'SmartInformationSystems\ObjectHistoryBundle\Annotations\LoggingField';
 
     /**
      * Не логгировать поле.
      *
      * @const string
      */
-    const ANNOTATION_NOT_LOGGING_FIELD = 'SmartSystems\ObjectHistoryBundle\Annotations\NotLoggingField';
+    const ANNOTATION_NOT_LOGGING_FIELD = 'SmartInformationSystems\ObjectHistoryBundle\Annotations\NotLoggingField';
 
     /**
      * Контейнер.
