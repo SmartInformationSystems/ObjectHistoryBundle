@@ -1,5 +1,5 @@
 {
-    "name" : "SmartInformationSystems/ObjectHistoryBundle",
+    "name" : "SmartInformationSystems/object-history-bundle",
     "description" : "Object history bundle",
     "type" : "symfony-bundle",
     "authors" : [{
@@ -7,7 +7,7 @@
         "email" : "info@smart-systems.ru"
     }],
     "keywords" : [
-        "object history bundle"
+        "object history"
     ],
     "license" : [
         "MIT"
@@ -15,13 +15,9 @@
     "require" : {
     },
     "autoload" : {
-        "psr-0" : {
-            "SmartInformationSystems\\ObjectHistoryBundle" : ""
-        }
+        "psr-0" : { "SmartInformationSystems\\ObjectHistoryBundle" : "" }
     },
     "target-dir" : "SmartInformationSystems/ObjectHistoryBundle",
-    "repositories" : [{
-    }],
     "extra" : {
         "branch-alias" : {
             "dev-master" : "1.0-dev"
