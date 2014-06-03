@@ -1,6 +1,6 @@
 <?php
 
-namespace SmartSystems\ObjectHistoryBundle\Annotations;
+namespace SmartInformationSystems\ObjectHistoryBundle\Annotations;
 
 /**
  * @Annotation
