@@ -1,9 +1,9 @@
 <?php
 
-namespace SmartSystems\ObjectHistoryBundle;
+namespace SmartInformationSystems\ObjectHistoryBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class SmartSystemsObjectHistoryBundle extends Bundle
+class SmartInformationSystemsObjectHistoryBundle extends Bundle
 {
 }
