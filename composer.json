@@ -16,10 +16,10 @@
     },
     "autoload" : {
         "psr-0" : {
-            "SmartSystems\\ObjectHistoryBundle" : ""
+            "SmartInformationSystems\\ObjectHistoryBundle" : ""
         }
     },
-    "target-dir" : "SmartSystems/ObjectHistoryBundle",
+    "target-dir" : "SmartInformationSystems/ObjectHistoryBundle",
     "repositories" : [{
     }],
     "extra" : {
