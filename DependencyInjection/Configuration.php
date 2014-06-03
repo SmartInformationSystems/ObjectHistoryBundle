@@ -1,6 +1,6 @@
 <?php
 
-namespace SmartSystems\ObjectHistoryBundle\DependencyInjection;
+namespace SmartInformationSystems\ObjectHistoryBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
@@ -18,7 +18,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('smart_systems_object_history');
+        $rootNode = $treeBuilder->root('smart_information_systems_object_history');
 
         // Here you should define the parameters that are allowed to
         // configure your bundle. See the documentation linked above for
