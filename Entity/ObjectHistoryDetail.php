@@ -1,6 +1,6 @@
 <?php
 
-namespace SmartSystems\ObjectHistoryBundle\Entity;
+namespace SmartInformationSystems\ObjectHistoryBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 
