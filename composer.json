@@ -21,9 +21,9 @@
     },
     "target-dir" : "SmartSystems/ObjectHistoryBundle",
     "repositories" : [{
-    ],
+    }],
     "extra" : {
-    "branch-alias" : {
+        "branch-alias" : {
             "dev-master" : "1.0-dev"
         }
     }
