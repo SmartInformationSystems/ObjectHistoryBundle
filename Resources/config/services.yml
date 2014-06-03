@@ -1,9 +1,9 @@
 parameters:
-#    smart_systems_object_history.example.class: SmartSystems\ObjectHistoryBundle\Example
+#    smart_information_systems_object_history.example.class: SmartInformationSystems\ObjectHistoryBundle\Example
 
 services:
-    smart_systems_object_history.doctrine.listener:
-        class: SmartSystems\ObjectHistoryBundle\EventListener\DoctrineListener
+    smart_information_systems_object_history.doctrine.listener:
+        class: SmartInformationSystems\ObjectHistoryBundle\EventListener\DoctrineListener
         arguments: ['@service_container']
         tags:
             - { name: doctrine.event_listener, event: postPersist }
