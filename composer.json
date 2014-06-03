@@ -19,7 +19,7 @@
             "SmartSystems\\ObjectHistoryBundle" : ""
         }
     },
-    "target-dir" : ""SmartSystems/ObjectHistoryBundle",
+    "target-dir" : "SmartSystems/ObjectHistoryBundle",
     "repositories" : [{
     ],
     "extra" : {
