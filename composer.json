@@ -1,5 +1,5 @@
 {
-    "name" : "SmartInformationSystems/object-history-bundle",
+    "name" : "smart-information-systems/object-history-bundle",
     "description" : "Object history bundle",
     "type" : "symfony-bundle",
     "authors" : [{
@@ -15,9 +15,8 @@
     "require" : {
     },
     "autoload" : {
-        "psr-0" : { "SmartInformationSystems\\ObjectHistoryBundle" : "" }
+        "psr-4" : { "SmartInformationSystems\\FileBundle\\" : "" }
     },
-    "target-dir" : "SmartInformationSystems/ObjectHistoryBundle",
     "extra" : {
         "branch-alias" : {
             "dev-master" : "1.0-dev"
